@@ -7,7 +7,9 @@ import HeroSection from './components/HeroSection.vue'
   <div>
     <TheHeader />
     <!-- <TheFooter /> -->
-    <HeroSection />
+    <main>
+      <HeroSection />
+    </main>
     <!-- <HowItWorks /> -->
     <!-- <Card /> -->
     <!-- <OurTeam /> -->
