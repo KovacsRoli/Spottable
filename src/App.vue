@@ -6,12 +6,12 @@ import HeroSection from './components/HeroSection.vue'
 <template>
   <div>
     <TheHeader />
-    <TheFooter />
+    <!-- <TheFooter /> -->
     <HeroSection />
-    <HowItWorks />
-    <Card />
-    <OurTeam />
-    <TheFooter />
+    <!-- <HowItWorks /> -->
+    <!-- <Card /> -->
+    <!-- <OurTeam /> -->
+    <!-- <TheFooter /> -->
   </div>
 </template>
 
