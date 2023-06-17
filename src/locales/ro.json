@@ -1,6 +1,35 @@
 {
+  "download": "Descarcă aplicația",
   "header": {
     "about": "Despre noi",
     "team": "Echipa"
+  },
+  "hero":{
+    "title": "Acum este ușor să-ți găsești animalul de companie pierdut!",
+    "info": "Descarcă Spottable și vei primi ajutorul întregii comunități."
+  },
+  "about": {
+    "title": "Cum funcționează Spottable?",
+    "check": "Verifică Harta",
+    "checkInfo": "Descarcă și folosește aplicația oriunde în România.",
+    "profile": "Creează un profil pentru animalul tău de companie",
+    "profileInfo": "Poți adăuga informații despre animalul tău în cont. Dacă acesta se pierde, acum poți anunța comunitatea. Cu doar un singur clic, animalul tău va apărea pe hartă.",
+    "found": "Găsit!",
+    "foundInfo": "Cineva a făcut o fotografie unui animal de companie care seamănă cu al tău! Verifică și trimite un mesaj persoanei care l-a observat. După ce te reîntâlnești cu animalul tău de companie, poți informa întreaga comunitate.",
+    "whatIsIt": "Ce este Spottable?",
+    "whatIsItInfo": "SPOTTABLE este o soluție pentru toți proprietarii de animale de companie. Aplicația aduce întreaga comunitate să te ajute și digitalizează procesul de găsire a animalului tău de companie. Împreună, reducem timpul în care animalul tău este pierdut."
+  },
+  "team": {
+    "title": "Echipa Noastră",
+    "info": "Cunoaște echipa de oameni dedicați care au transformat această idee în realitate!"
+  },
+  "footer": {
+    "about": "Despre",
+    "download": "Descarcă",
+    "team": "Echipă",
+    "contact": "Contact",
+    "email": "Email",
+    "terms": "Termeni și condiții",
+    "privacy": "Politica de confidențialitate"
   }
 }

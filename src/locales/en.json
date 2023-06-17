@@ -1,7 +1,36 @@
 
 {
+  "download": "Download the App",
   "header": {
     "about": "About",
     "team": "Team"
+  },
+  "hero":{
+    "title": "Now it’s easy to find your lost pet!",
+    "info": "Download Spottable and you’ll get the help of an entire community "
+  },
+  "about": {
+    "title": "How does Spottable work?",
+    "check": "Check the Map",
+    "checkInfo": "Download and use the App anywhere in Romania.",
+    "profile": "Create a profile for your pet",
+    "profileInfo": "You can add in the account information about your pet. If it got lost, you can now let the community know. With only one tap, your pet will appear on the Map.",
+    "found": "Found!",
+    "foundInfo": "Someone took a picture of a pet that resemblesyours! Check it up and send a message to the person who spotted it. After you are reunited with your pet, you can inform everyone in the community.",
+    "whatIsIt": "What is Spottable?",
+    "whatIsItInfo": "SPOTTABLE is a solution for all pet owners out there. The App brings the whole community to your help and digitalizes the process of finding your pet. Together we reduce the time your pet stays lost"
+  },
+  "team": {
+    "title": "Our Team",
+    "info": "Meet the team of dedicated people that made this idea become reality!"
+  },
+  "footer": {
+    "about": "About",
+    "download": "Download",
+    "team": "Team",
+    "contact": "Contact",
+    "email": "Email",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy"
   }
 }

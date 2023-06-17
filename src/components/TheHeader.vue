@@ -1,31 +1,36 @@
 <template>
-  <header class="fixed top-0 left-0 w-screen py-6 px-4 md:px-8 bg-transparent flex justify-center">
-    <nav
-      class="flex text-white text-xl md:text-2xl xl:text-4xl w-full max-w-[1592px] items-center justify-end gap-x-12"
-    >
-      <p class="font-light">{{ $t('header.about') }}</p>
-      <p class="font-light">{{ $t('header.team') }}</p>
-      <p class="font-bold" @click="$i18n.locale = 'en'">EN</p>
-      <p @click="$i18n.locale = 'ro'">RO</p>
-      <img :src="facebookIcon" alt="Facebook icon" />
+  <header ref="header" class="header w-full bg-transparent flex justify-center">
+    <nav class="flex text-white w-full items-end justify-end gap-x-4 md:gap-x-8 xl:gap-x-11">
+      <a href="#about" class="font-light cursor-pointer">{{ t('header.about') }}</a>
+      <a href="#team" class="font-light cursor-pointer">{{ t('header.team') }}</a>
+      <p class="cursor-pointer" :class="{ 'font-bold': locale === 'en' }" @click="locale = 'en'">EN</p>
+      <p class="cursor-pointer" :class="{ 'font-bold': locale === 'ro' }" @click="locale = 'ro'">RO</p>
+      <img :src="facebookIcon" alt="Facebook icon" class="facebook cursor-pointer" />
     </nav>
-    <div class="curve"></div>
   </header>
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
+import { useI18n } from 'vue-i18n'
 import facebookIcon from '../assets/facebook.svg'
+
+const { t, locale } = useI18n()
+
+const header = ref<HTMLHeadElement | null>(null)
+
+defineExpose({
+  getHeight: () => header.value?.clientHeight,
+})
 </script>
 
 <style scoped>
-.curve {
-  background: url('../assets/background1.svg') no-repeat;
-  background-size: cover;
-  aspect-ratio: 1920/1181;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
+.header {
+  padding: max(1rem, min(1.75rem, 2vw)) max(1rem, min(4.5rem, 5vw));
+  font-size: max(1rem, min(2.25rem, 3vw));
+}
+
+.facebook {
+  height: max(2rem, min(4.5rem, 6vw));
 }
 </style>
